@@ -1,9 +1,82 @@
-.Flexbox{
+body{
+   height: 100vh;
+   margin: 0;
+   overflow: hidden;
+   background-color: #1F2937
+}
+.Flegbox{
      background-color: #1F2937;
-    display:flex;
+    
+;
+    
+} 
+img{
+   width:  400px;
 }
 .text{
    font-size: 48px; 
    font-weight:extra bold;
    color:#F9FAF8;
+}
+.text2{
+   color:whitesmoke;
+ font-size:24pxß;
+}
+.container,.container2,.container3{
+   display:flex;
+   
+}
+.right ul{
+   list-style-type: none;
+   display:flex;
+   text-decoration: none;
+   margin:0;
+   
+
+}
+.container{
+   justify-content: space-around;
+   margin-bottom: 200px;
+   background-color: #3882F6;
+   align-items: center;
+}
+.container3{
+   flex-direction: column;
+   ;
+}
+li{
+   margin:0 100px 0 0
+}
+.container2{
+   gap:100px;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+.left{
+   color:#F9FAF8;
+   font-size: 24px;
+}
+.right{
+   
+   font-size: 18px;
+   
+   
+}
+a{
+   text-decoration: none;
+   color:aliceblue
+}
+.button{
+   background-color: #3882F6;
+   display:flx;
+   border-radius:10px;
+   overflow: hidden;
+   width:70px;
+   margin-top: 10px;
+   margin-left:20px ;
+  height:30px  ;
+  padding:4px;
+  color: aliceblue;
 }
